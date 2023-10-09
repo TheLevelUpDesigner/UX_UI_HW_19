@@ -1,0 +1,474 @@
+#navBar {
+    display: grid;
+    grid-template-columns: 80px 425px 80px;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 864px;
+}
+
+.logo {
+    margin-left: 80px;
+    size: 96px 96px;
+}
+
+.inline-block {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    gap: 8px;
+}
+
+#hamburgerMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+    margin-right: 80px;
+    grid-column: start;
+}
+
+.rectangle1 {
+    width: 88px;
+    height: 13px;
+    background: #C60000;
+}
+
+.rectangle2 {
+    width: 56px;
+    height: 13px;
+    background: #C60000;
+}
+
+.rectangle3 {
+    width: 24px;
+    height: 13px;
+    background: #C60000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 452px;
+    margin-right: 452px;
+}
+
+nav ul li {
+    color: #C60000;
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 56px;
+}
+
+section {
+    margin-bottom: 80px;
+}
+/*Social Links bar*/
+#socialLinks {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+    gap: 56px; /* Adjust the spacing between elements */
+    gap: 56px;
+    margin-top: 80px;
+    margin-left: 167px;
+}
+
+.socialButtons {
+    margin: 8px;
+    size: 48px 48px;
+}
+
+.rectangle {
+    width: 4px;
+    height: 138px;
+    background: #FF7A00;
+}
+
+/* Remove default button styles */
+button {
+    border: none; /* Remove borders */
+    background: none; /* Remove background color */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    font: inherit; /* Inherit font styles */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+h1 {
+    color: #FF7A00;
+    font-family: SF Pro Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    display: flex;
+    margin: 8px;
+    width:max-content
+}
+
+h2 {
+    color: #C60000;
+    font-family: SF Pro Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    display: flex;
+    margin: 8px;
+}
+
+div p {
+    color: #8B8B8B;
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    margin: 8px;
+    width: 435px;
+}
+
+#work {
+    display: inline-flex;
+    padding: 20px 132px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #C60000;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-right: 80px;
+    }
+
+#skills {
+    display: inline-flex;
+    padding: 20px 132px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #FF7A00;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/* Align elements vertically in the hero section */
+.heroImg {
+    display: flex;
+    flex-direction: row;
+}
+
+.blobContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 279px;
+    margin-top: -319px;
+}
+
+.blob2 {
+    margin-top: -83px;
+    margin-right: 169pt;
+    z-index: -10;
+}
+
+.colorWheel {
+    z-index: 10;
+    margin-top: -435px;
+    margin-left: -108px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-left: -44px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 493px;
+    margin: 100px;
+}
+
+.CTA {
+    display: flex;
+    flex-direction: row;
+    height: 79px;
+    width: 363px;
+    margin-top: 660px;
+    margin-left: -584px;
+}
+
+.footer {
+    height: 136px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+footer p {
+    color: #8B8B8B;
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    margin: 8px;
+    width: 435px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px
+}
+
+.pageTitle h1 {
+    display: flex;
+    justify-content: center;
+    color: #FF7A00;
+    font-family: SF Pro Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.skill1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 438px;
+    height: 380px;
+    background: #FFF;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.skill2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 438px;
+    height: 380px;
+    background: #FFF;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.skill3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 438px;
+    height: 380px;
+    background: #FFF;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.subTitle h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C60000;
+    font-family: SF Pro Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridContainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.appText h4 {
+    margin: 8px;
+    color: #6B6B6B;
+    font-family: SF Pro Rounded;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.appText p {
+    color: #6B6B6B;
+    font-family: SF Pro Rounded;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.appImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 438px;
+    height: 380px;
+    background: #FFF;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.25);
+    margin: 64px;
+}
+
+.appImage img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.appText button {
+    color: white;
+    font-family: SF Pro Rounded;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    background: #C60000;
+    padding: 24px 64px;
+    margin-top: 48px;
+    border-radius: 10px;
+}
+
+div h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 64px;
+    color: #6B6B6B;
+    font-family: SF Pro Rounded;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    padding: 24px 64px;
+    margin-top: 48px;
+    border-radius: 10px;
+}
+
+.footer {
+    height: 136px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+footer p {
+    color: #C60000;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 64px;
+    margin-right: 64px;
+}
+
+.custom-button {
+    display: inline-flex;
+    padding: 20px 132px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #C60000;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-right: 80px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, font-size 0.2s;
+}
+
+.custom-button:hover {
+    transform: scale(1.05);
+    font-size: 32px;
+}
+
+.custom-button:active {
+    background: #950000;
+    transform: scale(0.95);
+}
+
+
+@media (max-width: 1200px) {
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .gridContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .appText {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 650px;
+    }
+    nav ul {
+        display: none;
+    }
+}
